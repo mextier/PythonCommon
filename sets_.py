@@ -1,6 +1,7 @@
 a = { 1, 2, 3}
 b = {3,4,5}
 
+
 print(a-b)
 print(a.difference(b))
 print(b-a)
@@ -18,4 +19,3 @@ print('newlist is {}'.format(newlist))
 
 newset = set(range(1,11))
 print(newset)
-

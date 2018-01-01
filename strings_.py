@@ -1,3 +1,20 @@
+s1=input().lower()
+s2=input().lower()
+print(set(s1)==set(s2) and len(s1)==len(s2))
+input()
+
+
+#Compare reverse
+print("#Compare reverse")
+s1=input()
+s2=input()
+b= s1[:]==''.join(reversed(list(s2)))[:]
+b1 = s1[:]==s2[::-1]
+print(b)
+print(b1)
+input()
+print('-'*20)
+
 #Length
 print("#Length")
 str1 = "123"

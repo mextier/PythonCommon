@@ -35,3 +35,7 @@ for i in range(len(str1)):
 l = ['Dima','Den','Lena','Andrey']
 for i,val in enumerate(l,1):
 	print(f'{i}:{val}')
+
+my_list = ['apple', 'banana', 'grapes', 'pear']
+counter_list = list(enumerate(my_list, 1))
+print(counter_list)

@@ -2,6 +2,14 @@
 #https://habrahabr.ru/post/186608/
 #https://lancelote.gitbooks.io/intermediate-python/content/book/__slots__magic.html
 
+#__repr__
+#__reversed__
+#__len__
+#__getitem__
+#__round__
+
+
+
 #__dict__
 
 class TestLocals(object):

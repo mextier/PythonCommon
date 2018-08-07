@@ -8,7 +8,7 @@ import time
 
 
 def proca(name):
-    time.sleep(10)
+    time.sleep(5)
     print(f'{name} finished')
 
 for i in range(10):

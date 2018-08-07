@@ -1,5 +1,12 @@
 #https://realpython.com/python-lists-tuples/#python-tuples
 
+t = ('foo', 'bar', 'baz', 'qux', 'quux', 'corge')
+t+=(1,)
+print(f"{type(t)}: {t}")
+print(type(t) is tuple)
+print(isinstance(t,tuple))
+
+
 tup1 = (12, 34.56)
 tup2 = ('new tuple', 777)
 tup3 = (10,)

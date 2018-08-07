@@ -11,3 +11,10 @@ print(dict(zip(names,values)))
 s3=dict(s2)
 s3.update(s1)
 print(s3)
+
+
+#merge two dicts Python 3.5+
+d1 = {'a':1,'b':2}
+d2 = {'a':2,'b':3,'c':10}
+merged_dict = {**d1,**d2}
+print(merged_dict)

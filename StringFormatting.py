@@ -9,6 +9,8 @@ print('*'*50)
 
 #New style formatting
 print("Hello, {}".format("Username"))
+print("Hello, {param1}".format(param1="Username"))
+
 params = {"userame":"User","myname":"PC"}
 print("username is {userame}, but my name is {myname}".format_map(params))
 print('*'*50)

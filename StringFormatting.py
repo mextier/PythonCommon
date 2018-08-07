@@ -9,13 +9,13 @@ print('*'*50)
 
 #New style formatting
 print("Hello, {}".format("Username"))
-
+params = {"userame":"User","myname":"PC"}
+print("username is {userame}, but my name is {myname}".format_map(params))
 print('*'*50)
 
 #String Interpolation / f-Strings (Python 3.6+)
 userame,myname = ("Username","PC")
 print(f"username is {userame}, but my name is {myname}")
-
 print('*'*50)
 
 #Template Strings

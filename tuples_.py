@@ -1,3 +1,5 @@
+#https://realpython.com/python-lists-tuples/#python-tuples
+
 tup1 = (12, 34.56)
 tup2 = ('new tuple', 777)
 tup3 = (10,)

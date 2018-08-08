@@ -45,3 +45,8 @@ l = [1,2,3]
 c = "ABC"
 t = list(zip(l,c))
 print(t)
+#в словари
+names = ['Bob','Helen','John']
+scores = [1000,9000,8000]
+d = dict(zip(names,scores))
+print(d)

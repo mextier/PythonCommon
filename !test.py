@@ -10,3 +10,9 @@ def gettr(data):
 
 for t in gettr([i for i in range(20)]):
     print(t)
+
+
+
+
+s = sum(int(s) for s in (str(2**1000)))
+print(s)

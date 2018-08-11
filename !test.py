@@ -16,3 +16,19 @@ for t in gettr([i for i in range(20)]):
 
 s = sum(int(s) for s in (str(2**1000)))
 print(s)
+
+
+
+
+def db(**oldlocals):
+    print(f"{a} {b}")
+    print(oldlocals)
+    print(locals())
+
+
+
+a=1
+b=2
+#type db(**locals())
+breakpoint()
+print(12)

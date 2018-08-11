@@ -40,3 +40,10 @@ class C(object):
 			return str(self.foo)
 c = C()
 print("{}, {:of}".format(c,c))
+print('*'*50)
+
+print('Sum\tNDS\tValue')
+print('-'*50)
+for item in [10,50,100]:
+	for nds in (10,18,20):
+		print ('{0:d}\t{0:d}\t{1:f}'.format(item,nds,nds*item*(100+nds)/100))

@@ -1,3 +1,6 @@
+#https://itproger.com/course/python/11
+
+#set
 a = { 1, 2, 3}
 b = {3,4,5}
 
@@ -27,3 +30,9 @@ union = fib_numbers | prime_numbers
 intersection = fib_numbers & prime_numbers
 difference = fib_numbers - prime_numbers
 symmetric_difference = fib_numbers ^ prime_numbers
+
+#frozen set
+s = frozenset({10,20,30})
+if type(s) is frozenset:
+    print("Yes, it's a frozenset.")
+print(s)

@@ -30,5 +30,12 @@ def db(**oldlocals):
 a=1
 b=2
 #type db(**locals())
-breakpoint()
+#breakpoint()
 print(12)
+
+#найти не парный
+d = [1,2,2,1,5,3,3,7,5] #7
+s = int(0)
+for item in d:
+    s = s ^ item
+print(s)

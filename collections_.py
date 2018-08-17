@@ -1,5 +1,6 @@
 #https://docs.python.org/3.3/library/collections.html
 #https://pythonworld.ru/moduli/modul-collections.html
+#https://python-scripts.com/import-collections
 #https://www.youtube.com/watch?v=_RxuKNR3VeA
 #https://www.youtube.com/watch?v=CZWJT1tm-8g
 #https://www.youtube.com/watch?v=GfxJYp9_nJA

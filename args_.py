@@ -1,4 +1,5 @@
 def cla1(*args):
+    #print(type(args))
     for i,p in enumerate(args):
         print(i,p)
 

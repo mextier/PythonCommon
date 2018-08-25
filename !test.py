@@ -39,3 +39,14 @@ s = int(0)
 for item in d:
     s = s ^ item
 print(s)
+
+
+
+
+
+#
+from collections import Counter
+c = Counter([1,1,2,3,4,4,5,5,5,5])
+print(c)
+s = [el for el,data in c.items() if data==1]
+print(s)

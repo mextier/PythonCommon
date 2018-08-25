@@ -1,4 +1,5 @@
 #https://itproger.com/course/python/11
+#https://realpython.com/python-sets/
 
 #set
 a = { 1, 2, 3}

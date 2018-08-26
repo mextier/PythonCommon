@@ -1,6 +1,6 @@
 import pymssql
 
-
+#только для python 2
 
 conn = pymssql.connect(host='192.168.0.2', user='Администратор', password='', database='ClarisTKHP', as_dict=True)
 cur = conn.cursor()

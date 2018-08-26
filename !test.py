@@ -1,3 +1,30 @@
+#factorial
+n = 7
+from functools import reduce
+fn=reduce(lambda x,y:x*y, range(1,n+1))
+print(fn)
+
+def fact(n):
+    if n<=1:
+        return 1
+    else:
+        return n*fact(n-1)
+print(fact(n))
+
+
+def factg(n):
+    f, i = 1, 1
+    while i <= n:
+        f = f * i
+        yield (i , f)
+        i += 1
+for _ in factg(n):
+    print(_)
+
+
+from math import factorial as fact
+print(fact(n))
+
 def gettr(data):
     rList=[]
     for i,item in enumerate(data):

@@ -1,3 +1,22 @@
+class BankAccount:
+  balance = 0
+  def __init__(self, name):
+    self.name = name
+
+  def __repr__(self):
+    return self.name
+
+
+
+a1=BankAccount('Dmitriy')
+print(a1)
+
+
+
+
+
+
+
 #factorial
 n = 7
 from functools import reduce

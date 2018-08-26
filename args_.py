@@ -1,3 +1,6 @@
+#https://www.youtube.com/watch?v=VJJ9wwzgJCA
+#https://www.youtube.com/watch?v=RB-vzfOOxmA
+
 def cla1(*args):
     #print(type(args))
     for i,p in enumerate(args):

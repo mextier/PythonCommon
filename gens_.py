@@ -39,3 +39,7 @@ for i,val in enumerate(l,1):
 my_list = ['apple', 'banana', 'grapes', 'pear']
 counter_list = list(enumerate(my_list, 1))
 print(counter_list)
+
+
+
+print(dict([(i,j) for i in range(10) for j in range(10,20)]))

@@ -41,8 +41,8 @@ maxel = reduce(lambda x,y: x if x>y else y,items)
 print(maxel)
 
 #zip объединяет в кортежи
-l = [1,2,3]
-c = "ABC"
+l = [1,2,3,4]
+c = "ABCD"
 t = list(zip(l,c))
 print(t)
 #в словари

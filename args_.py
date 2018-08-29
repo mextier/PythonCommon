@@ -1,5 +1,6 @@
 #https://www.youtube.com/watch?v=VJJ9wwzgJCA
 #https://www.youtube.com/watch?v=RB-vzfOOxmA
+#https://www.youtube.com/watch?v=cLbp5H-P3vg&list=PL5B_2MjTirtjb4_qUtjUutTHLFEmwZ3vK&index=4
 
 def cla1(*args):
     #print(type(args))

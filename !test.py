@@ -1,3 +1,12 @@
+t = (10,20,30)
+print(dir(t))
+
+
+print(hash(t))
+print(t[1])
+
+
+
 class BankAccount:
   balance = 0
   def __init__(self, name):
@@ -11,6 +20,7 @@ class BankAccount:
 a1=BankAccount('Dmitriy')
 print(a1)
 
+print(hash(a1))
 
 
 

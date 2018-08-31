@@ -1,3 +1,20 @@
+class clicker():
+	count = [0]
+	def click(self):
+		self.count[0] += 1
+
+
+
+c=clicker()
+b=clicker()
+c.click()
+b.click()
+c.click()
+print(clicker.count)
+
+
+
+
 class Papa:
 	pass
 

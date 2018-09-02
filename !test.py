@@ -1,6 +1,9 @@
+
+
 t = (10,20,30)
 print(dir(t))
-
+print(iter([1,2,3]))
+#print([*iter[1,2,3]])
 
 print(hash(t))
 print(t[1])
@@ -106,3 +109,4 @@ c = Counter([1,1,2,3,4,4,5,5,5,5])
 print(c)
 s = [el for el,data in c.items() if data==1]
 print(s)
+print(sum([i for i in range(5)]))

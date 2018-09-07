@@ -1,5 +1,6 @@
 #http://pythonicway.com/python-functinal-programming
 #https://lancelote.gitbooks.io/intermediate-python/content/book/map_filter.html
+#https://www.youtube.com/watch?v=0wMVaVZbPJw
 
 
 

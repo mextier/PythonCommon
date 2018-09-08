@@ -36,3 +36,10 @@ print(cortesian_product)
 l = [1,2,2,3,4,5,5,6,7,7]
 l2 = [i for i in l if l.count(i)>1]
 print(l2)
+
+from operator import itemgetter
+
+l=list([{"name":"Ju","w":781},{"name":"Dmitry","w":78},{"name":"Lena","w":78}])
+l.sort(key=itemgetter("w","name"), reverse=True)
+#l.sort(key=lambda x:x['w'], reverse=True)
+print(l)

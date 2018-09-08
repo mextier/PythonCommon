@@ -43,3 +43,5 @@ l=list([{"name":"Ju","w":781},{"name":"Dmitry","w":78},{"name":"Lena","w":78}])
 l.sort(key=itemgetter("w","name"), reverse=True)
 #l.sort(key=lambda x:x['w'], reverse=True)
 print(l)
+
+from operator import attrgetter

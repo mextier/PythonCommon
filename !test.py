@@ -32,18 +32,33 @@ print(hash(a1))
 
 
 
-#factorial
+#factorial starts
 n = 7
+
+from math import factorial as fact
+a=input(f"Standart math:{fact(n)}")
+
 from functools import reduce
 fn=reduce(lambda x,y:x*y, range(1,n+1))
-print(fn)
+a=input(f"Via reduce:{fn}")
 
 def fact(n):
     if n<=1:
         return 1
     else:
         return n*fact(n-1)
-print(fact(n))
+a=input(f"Recursion:{fact(n)}")
+
+def facte(n):
+    if not isinstance(n,int) or n < 1:
+        raise Exception("Argument must be int >= 1")
+    def __f(n):
+        if n == 1:
+            return 1
+        else:
+            return(n*__f(n-1))
+    return __f(n)
+a=input(f"Recursion with Exception:{facte(n)}")
 
 
 def factg(n):
@@ -54,10 +69,9 @@ def factg(n):
         i += 1
 for _ in factg(n):
     print(_)
+a=input(f"Through generator:{_}")
+#factorial ends
 
-
-from math import factorial as fact
-print(fact(n))
 
 def gettr(data):
     rList=[]

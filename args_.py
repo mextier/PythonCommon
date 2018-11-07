@@ -2,6 +2,7 @@
 #https://www.youtube.com/watch?v=RB-vzfOOxmA
 #https://www.youtube.com/watch?v=cLbp5H-P3vg&list=PL5B_2MjTirtjb4_qUtjUutTHLFEmwZ3vK&index=4
 #https://www.youtube.com/watch?v=WcTXxX3vYgY
+#https://www.youtube.com/watch?v=u-OmVr_fT4s
 
 def cla1(*args):
     #print(type(args))

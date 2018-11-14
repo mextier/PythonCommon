@@ -18,10 +18,10 @@ bdic1 =  ctypes.CDLL('D:\\5Claris\\exe\\bdic1.dll')
 bdic2 =  ctypes.CDLL('D:\\5Claris\\exe\\bdic2.dll')
 bdic3 =  ctypes.CDLL('D:\\5Claris\\exe\\bdic3.dll')
 
-crpe32 =  ctypes.CDLL('D:\\5Claris\\exe\\crpe32.DLL')
-commondll =  ctypes.CDLL('D:\\5Claris\\exe\\common.dll')
-mysql =  ctypes.CDLL('D:\\5Claris\\exe\\mysql.dll')
-bmain =  ctypes.CDLL('D:\\5Claris\\exe\\bmain.dll')
+#crpe32 =  ctypes.CDLL('D:\\5Claris\\exe\\crpe32.DLL')
+#commondll =  ctypes.CDLL('D:\\5Claris\\exe\\common.dll')
+#mysql =  ctypes.CDLL('D:\\5Claris\\exe\\mysql.dll')
+#bmain =  ctypes.CDLL('D:\\5Claris\\exe\\bmain.dll')
 
 bspr =  ctypes.CDLL('D:\\5Claris\\exe\\bspr.dll')
 zspr =  ctypes.CDLL('D:\\5Claris\\exe\\zspr.dll')
@@ -31,6 +31,5 @@ zspr =  ctypes.CDLL('D:\\5Claris\\exe\\zspr.dll')
 
 
 
-sfrep =  ctypes.CDLL('D:\\5Claris\\exe\\sfrep.dll')
-sfrep.BrowseBunk
-
+#sfrep =  ctypes.CDLL('D:\\5Claris\\exe\\sfrep.dll')
+#zspr.BrowseBunk

@@ -1,6 +1,7 @@
 #https://pythonworld.ru/moduli/modul-itertools.html
 #https://python-scripts.com/itertools
 #https://www.youtube.com/watch?v=Qu3dThVy6KQ
+#https://www.youtube.com/watch?v=xK7E2YmjyAc
 
 import itertools
 

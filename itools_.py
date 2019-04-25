@@ -26,3 +26,8 @@ for key, group in itertools.groupby(things, lambda x: x[0]):
     for thing in group:
         print("A %s is a %s." % (thing[1], key))
         print('')
+
+l1 = list([i for i in range(10)])
+l2= ['First','Second','Third']
+l12=list(itertools.zip_longest(l1,l2))
+print(l12)

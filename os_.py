@@ -1,7 +1,9 @@
 #https://pythonworld.ru/moduli/modul-os.html
 #https://pythonworld.ru/moduli/modul-os-path.html
+#https://www.youtube.com/watch?v=ve2pmm5JqmI
 
-from os import system, getcwd, makedirs, listdir, remove, getpid, name
+
+from os import system, getcwd, makedirs, listdir, remove, getpid, name, chdir
 from os.path import join, dirname, exists, splitext, isfile, getctime, split
 import zipfile
 from time import time
@@ -23,7 +25,7 @@ print(filename)
 if not exists(dirname(filename)):
     makedirs(dirname(filename))
 
-system("notepad.exe {}".format(filename))
+#system("notepad.exe {}".format(filename))
 
 
 
@@ -55,4 +57,35 @@ system("notepad.exe {}".format(filename))
 #                 print('[Delete file: {}]'.format(itm))
 #                 remove(itm)
 #
+
+
+
+
+
+curDir='E:\\projects'
+chdir(curDir)
+while True:
+    print(curDir)
+    print('x: exit')
+    print('0: back')
+    dirs = listdir()
+    for (i,f) in enumerate(dirs, 1):
+        print('{} {}'.format(i,f))
+    print('-'*32)
+    i=input("Your choice:")
+    print('-'*32)
+    if i[:1]=="x":
+        print("Good bye!")
+        break
+    elif i=="0":
+        chdir('..')
+        curDir=getcwd()
+    else:
+        if not isfile(join(curDir,dirs[int(i)-1])):
+            curDir=join(curDir,dirs[int(i)-1])
+            chdir(curDir)
+
+
+
+
 

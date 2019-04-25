@@ -56,5 +56,3 @@ system("notepad.exe {}".format(filename))
 #                 remove(itm)
 #
 
-
-12312

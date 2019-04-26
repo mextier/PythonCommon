@@ -1,7 +1,7 @@
 #https://pythonworld.ru/moduli/modul-os.html
 #https://pythonworld.ru/moduli/modul-os-path.html
 #https://www.youtube.com/watch?v=ve2pmm5JqmI
-
+#https://www.youtube.com/watch?v=tJxcKyFMTGo
 
 from os import system, getcwd, makedirs, listdir, remove, getpid, name, chdir
 from os.path import join, dirname, exists, splitext, isfile, getctime, split
@@ -65,12 +65,12 @@ if not exists(dirname(filename)):
 curDir='E:\\projects'
 chdir(curDir)
 while True:
-    print(curDir)
-    print('x: exit')
-    print('0: back')
+    print('>',curDir)
+    print('  x exit')
+    print('  0 back')
     dirs = listdir()
-    for (i,f) in enumerate(dirs, 1):
-        print('{} {}'.format(i,f))
+    for (i,f) in enumerate(dirs):
+        print('{:>3} {}'.format(i+1,f))
     print('-'*32)
     i=input("Your choice:")
     print('-'*32)
@@ -81,11 +81,12 @@ while True:
         chdir('..')
         curDir=getcwd()
     else:
-        if not isfile(join(curDir,dirs[int(i)-1])):
-            curDir=join(curDir,dirs[int(i)-1])
-            chdir(curDir)
-
-
-
-
-
+        try:
+            c=int(i)
+            if c not in range(1,len(dirs)+1):
+                raise ValueError 
+            if not isfile(join(curDir,dirs[int(i)-1])):
+                curDir=join(curDir,dirs[int(i)-1])
+                chdir(curDir)
+        except ValueError:
+            print("Can't understand what you are saying!")

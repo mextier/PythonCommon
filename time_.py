@@ -1,3 +1,6 @@
+#https://pythonworld.ru/moduli/modul-time.html
+#https://python-scripts.com/datetime-time-python
+
 import time
 
 

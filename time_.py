@@ -7,10 +7,10 @@ import time
 
 break_time = int(input("Length of break (seconds):"))
 work_time = int(input("Length of working time (seconds):"))
-print("Clock has been started!")
 while True:
+    print("{} You need to start working!".format(time.ctime()))
     time.sleep(work_time)
     print("{} You need to take a break!".format(time.ctime()))
     time.sleep(break_time)
-    print("{} You need to start working!".format(time.ctime()))
+    
     

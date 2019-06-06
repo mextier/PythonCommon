@@ -1,5 +1,6 @@
 #https://realpython.com/python-string-formatting/
 #https://habr.com/post/236633/
+#https://docs.python.org/3/library/string.html
 
 #Old style
 print("Hello, %s" % "User")

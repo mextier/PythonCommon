@@ -1,5 +1,7 @@
 #http://pythonicway.com/education/basics/16-python-lists-intermediate
 #https://lancelote.gitbooks.io/intermediate-python/content/book/generators.html
+#https://www.youtube.com/watch?v=bD05uGo_sVI
+
 
 def gen1():
 	for i in range(10):

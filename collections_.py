@@ -8,7 +8,7 @@
 #https://www.youtube.com/playlist?list=PLAa4Q914LSAbrPQPGih39Dgp1JKi6SFwH
 
 
-from collections import OrderedDict, Counter, namedtuple
+from collections import OrderedDict, Counter, namedtuple, deque
 
 dict1 = dict()
 dict1['Filed2']="value2"
@@ -26,3 +26,11 @@ Employee = namedtuple("Employee", ["id", "title", "salary"])
 E1 = Employee('A12345', 'Engineer', 100000)
 E2 = Employee('A54321', 'Manager', 120000)
 print(f"{E1.id} {E1.title} {E1.salary}")
+
+
+
+dq = deque()
+dq.append(1)
+dq.appendleft(-1)
+
+print(dq)
